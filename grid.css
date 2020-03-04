@@ -6,6 +6,11 @@
     padding : 0
 }
 
+h1.head{
+    text-align: center;
+    margin: 20px
+}
+
 .first-container{
     display: grid;
     width: 90%;
@@ -81,9 +86,7 @@
 }
 
 /* JUSTIFY & ALIGN CONTENT */
-
-
-.content-container {
+.second-container{
     display: grid;
     width: 90%;
     height: 500px;
@@ -96,6 +99,11 @@
     gap: 10px;
 
 
-justify-content: space-evenly;
-align-content: space-evenly;
+    /* justify-contet : HORIZONTAL */
+    /* justify-content : start | end | center | space-around | space-between | space-evenly */
+    justify-content: space-evenly;
+
+    /* align-content : VERTICAL */
+    /* justify-content : start | end | center | space-around | space-between | space-evenly */
+    align-content: space-evenly;
 }
